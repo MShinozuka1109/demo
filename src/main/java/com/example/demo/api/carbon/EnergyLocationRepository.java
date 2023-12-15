@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class EnergyLocationRepository {
 	EnergyLocation findByLocation(String location) {
-        return new EnergyLocation(location, 0.5);
+        return new EnergyLocation(location, 0.4);
     }
 
 }
